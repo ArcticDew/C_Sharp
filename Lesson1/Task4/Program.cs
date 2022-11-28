@@ -19,3 +19,4 @@ if (max < n3)
     max = n3;
 }
 Console.WriteLine($"Максимальным числом является {max}");
+Console.WriteLine();
