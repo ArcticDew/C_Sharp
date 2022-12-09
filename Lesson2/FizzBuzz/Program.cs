@@ -8,9 +8,9 @@ foreach (int a in array)
 {
     if (a % 3 == 0 || a % 5 == 0)
     {
-        if (a % 15 == 0) Console.Write($"FizzBuzz ");
-        else if (a % 3 == 0) Console.Write($"Fizz ");
-        else Console.Write($"Buzz ");
+        if (a % 15 == 0) Console.Write("FizzBuzz ");
+        else if (a % 3 == 0) Console.Write("Fizz ");
+        else Console.Write("Buzz ");
     }
     else
     {
