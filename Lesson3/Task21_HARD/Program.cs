@@ -30,6 +30,7 @@ try
     }
     double result = Math.Sqrt(sum);
     Console.WriteLine($"Расстояние между точками = {result}");
+    Console.WriteLine();
 }
 catch (System.Exception)
 {

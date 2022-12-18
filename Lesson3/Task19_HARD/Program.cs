@@ -12,6 +12,7 @@ try
     Console.Write("Введите целое число: ");
     int num = Convert.ToInt32(Console.ReadLine());
     int result = 0;
+    Console.WriteLine();
 
     for (int i = 0; i < BitDepth(num) / 2; i++)
     {
@@ -29,11 +30,13 @@ try
             break;
         }
     }
-
+    Console.WriteLine();
     if (result == 1) Console.WriteLine($"Число {num} является палиндромом!");
     else Console.WriteLine($"Число {num} не является палиндромом!");
+    Console.WriteLine();
 }
 catch (System.Exception)
 {
   Console.WriteLine("Введены некорректные данные. Попробуйте снова.");
+  Console.WriteLine();
 }
