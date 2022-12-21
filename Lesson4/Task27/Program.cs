@@ -9,11 +9,11 @@ int Sum(int N) // Метод нахождения суммы цифр задан
     while (N > 0)
     {
         sum += N % 10;
-        N=N/10;
+        N = N / 10;
     }
     return sum;
 }
 
 Console.Write("Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(Sum(num));
+Console.WriteLine($"Сумма цифр числа {num} равна {Sum(num)}");

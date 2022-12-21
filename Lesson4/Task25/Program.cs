@@ -2,15 +2,15 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-int Exp(int X, int N) // Метод возведения числа в степень
+int Exp(int x, int n) // Метод возведения числа в степень
 {
-int result = 1;
-for (int i = 1; i <= N; i++) result *= x;
-return result;
+    int result = 1;
+    for (int i = 1; i <= n; i++) result *= x;
+    return result;
 }
 
 Console.Write("Введите целое число: ");
-int x = Convert.ToInt32(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите показатель степени: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(Exp(x,n));
+int B = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Число {A} в степени {B} равно {Exp(A, B)}");
