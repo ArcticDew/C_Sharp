@@ -6,7 +6,7 @@
 Console.WriteLine("Введите любое положительное число:");
 int N = Convert.ToInt32(Console.ReadLine());
 int k = 1;
-while (k < N+1)
+while (k <= N)
 {
     if (k % 2 == 0)
     {
@@ -14,4 +14,3 @@ while (k < N+1)
     }
     k++;
 }
-Console.WriteLine("");

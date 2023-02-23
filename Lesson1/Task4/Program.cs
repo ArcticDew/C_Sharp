@@ -19,7 +19,7 @@ if (max < n2)
 {
     max = n2;
 }
-else if (max < n3)
+if (max < n3)
 {
     max = n3;
 }
